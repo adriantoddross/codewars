@@ -1,32 +1,12 @@
-# Convert a String to a Number!
+# Training JS #2: Basic data types--Number
 
-We need a function that can transform a string into a number. What ways of achieving this do you know?
+In javascript, Number is one of basic data types. It can be positive: `1,2,3`, negative: `-1,-100` , integer: `123,456`, decimal: `3.1415926,-8.88` etc..
 
-Note: Don't worry, all inputs will be strings, and every string is a perfectly valid representation of an integral number.
+Numbers can use operators such as `+ - * / %`
 
-## Examples
+## Task
+I've written five function equal1,equal2,equal3,equal4,equal5, defines six global variables v1 v2 v3 v4 v5 v6, every function has two local variables a,b, please set the appropriate value for the two variables(select from v1--v6), making these function return value equal to 100. the function equal1 is completed, please refer to this example to complete the following functions.
 
-```
-"1234" --> 1234
-"605"  --> 605
-"1405" --> 1405
-"-7" --> -7
-```
+When you have finished the work, click "Run Tests" to see if your code is working properly.
 
-# Ideal Solutions
-
-[Number()](https://www.codewars.com/kata/reviews/54582010888e98e127000142/groups/54591abdcbae2a93ea0007e4)
-
-```
-var stringToNumber = function(str){
-  return Number(str);
-}
-```
-
-[parseInt()](https://www.codewars.com/kata/reviews/54582010888e98e127000142/groups/545891f9cbae2ae9e6000046)
-
-```
-var stringToNumber = function(str){
-  return parseInt(str);
-}
-```
+In the end, click "Submit" to submit your code pass this kata.
